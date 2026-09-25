@@ -382,6 +382,14 @@
       font-style: italic;
       text-align: center;
     }
+    iframe[src^="hhtps://app.netlify.com"],
+    div[class*="netlify"],
+    #netlify-modal {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
 
     @media (max-width: 760px) {
       .navbar {
